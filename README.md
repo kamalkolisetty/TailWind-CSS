@@ -75,6 +75,11 @@ No special prerequisites are needed to view the page. Any modern web browser sho
 
 
 
+
+![](images/6.png)
+
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
