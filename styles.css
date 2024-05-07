@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box{
+    @apply bg-rose-500 border-4
+}
+/*
+in css priority is given to lastly wrriten ones
+*/

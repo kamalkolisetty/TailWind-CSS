@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- start this by using npm run start-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Demo</title>
+    <!-- cdn = content delivery network
+    this is gud to use for devellopment but not for production
+            <script src="https://cdn.tailwindcss.com"></script>
+-->
+
+    <!--
+        adv of tw:
+        1) less bundle size
+        2) avoids confusion
+    -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!--
+
+  
+    <p class="font-sans text-xl italic text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fugiat ratione voluptate non ad, magni illo
+        minus cum! Corrupti fugiat iste voluptates itaque assumenda tempore suscipit commodi, necessitatibus harum sunt
+        minima culpa corporis? Aut labore quod ipsa nobis molestias, iusto natus autem id quibusdam possimus enim,
+
+    </p>
+    <br>
+    <p class="font-serif text-xs/9 hover:text-4xl">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim beatae id eius eveniet iste! Alias excepturi
+        optio voluptas iusto incidunt totam quas ab. Laborum fugiat sit voluptate commodi natus, iusto nesciunt
+        exercitationem fuga inventore, maiores nihil fugit dicta totam magnam repellendus molestiae. At ratione
+        accusamus mollitia itaque cum voluptatum dignissimos!
+    </p>
+   
+        here text-xs/9
+        means text s font size is extra small
+        and /9 implies line height that is gap b/w lines will b 9
+        (it can b (1-9) or loose)
+   
+    <br>
+    <p class="font-mono text-base font-bold">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ad saepe doloremque! Fuga ex quasi perspiciatis
+        sequi et magni, saepe sint odit? Voluptatem deleniti, delectus, sed nam ab reprehenderit minima odit quas dolor
+        quae a magnam facilis ad esse atque ipsam. Delectus, expedita saepe veniam placeat id quibusdam.
+    </p>
+    <br>
+    <br>
+    <h1 class="text-2xl font-medium w-auto">
+        HI boii
+    </h1>
+
+
+<div class="text-4xl text-white text-center p-5 m-4 bg-green-500 rounded-xl ">
+    this is a div
+</div>
+<div class="justify-between flex ">
+    <div class="box border-black text-5xl h-[300px] ">one</div>
+    <div class="box">two</div>
+
+    <div class="box">three</div>
+
+</div>
+<div class="bg-purple-500 sm:bg-green-500 hover:text-4xl md:bg-amber-500 p-5 m-2">
+breakpoints
+</div>
+-->
+
+    <div class="mt-20 mx-48 flex flex-wrap  rounded-lg border-2 border-black ">
+        <div
+            class="w-full bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-xl h-20 flex justify-center items-center  ">
+            News You Can Trust.
+        </div>
+        <div class="w-full text-center mt-6 rounded  ">
+            <h3 class="text-lg font-semibold"> Stay up to date with the Latest!
+            </h3>
+            <p>
+                Subscribe to our newsletter for the latest new straight into your inbox.
+            </p>
+            <form class="flex flex-wrap justify-center">
+                <input placeholder="your@email.com" class="w-full mx-52 bg-slate-200 text-center placeholder:text-sm mt-4 mb-2 p-2 rounded ">
+                <button class="bg-blue-500 w-full text-white mx-52  py-2 rounded-full hover:text-4xl ">Subscribe Now</button>
+                <p class="mt-4 mb-2 text-sm">We Value Your Privacy..</p>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
